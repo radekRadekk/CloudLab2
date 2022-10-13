@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Function", "Function\Functi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{81A839A2-69FA-4C51-B033-58CDB514922B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionWithAuthorizationAndParams", "FunctionWithAuthorizationAndParams\FunctionWithAuthorizationAndParams.csproj", "{55838F69-2ECB-4606-ABB8-28631D033286}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{81A839A2-69FA-4C51-B033-58CDB514922B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{81A839A2-69FA-4C51-B033-58CDB514922B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{81A839A2-69FA-4C51-B033-58CDB514922B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55838F69-2ECB-4606-ABB8-28631D033286}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55838F69-2ECB-4606-ABB8-28631D033286}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55838F69-2ECB-4606-ABB8-28631D033286}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55838F69-2ECB-4606-ABB8-28631D033286}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
