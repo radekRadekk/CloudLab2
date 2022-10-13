@@ -18,7 +18,7 @@ public static class AuthorizedFunctionWithParams
 
     [FunctionName("AuthorizedFunctionWithParams")]
     public static async Task<IActionResult> RunAsync(
-        [HttpTrigger(AuthorizationLevel.User, "get", "post", Route = null)]
+        [HttpTrigger(AuthorizationLevel.Anonymous, "get", "post", Route = null)]
         HttpRequest req, ILogger log)
     {
         var players = new[]
